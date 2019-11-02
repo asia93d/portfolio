@@ -51,33 +51,29 @@ background: linear-gradient(250deg, #3399FF 15%, #0066CC 70%);
 margin: auto 30px;
 font-family: "Raleway", sans-serif;
 color: white;
- 
 }
 
 .about-content {
 width: 100%;
 }
+
 .about-content img {
 width: 25%;
 display: inline-block;
+}
 
-}
-#about {
- font-size: 25px;
- margin: 1.5vw 3vw;
-}
 .about-info {
-    display:inline-block;
+    display: inline-block;
     position: absolute;
-    left: 24vw;
     font-size: 1.3vw;
     font-weight: bold;
     line-height: 2.5vw;
 }
+
 ul {
     list-style-type: none;
-
 }
+
 .about-text {
     width: 40vw;
     height: 15vw;
@@ -89,16 +85,17 @@ ul {
     text-align: justify;
     right: 4%;
     border-left: dotted;
-    padding: 0 2vw;
-
+    padding: 0 1vw;
 }
-#skills-style {
+
+#title-style {
     display: flex;
     justify-content: center;
     margin: 5vw auto;
     font-size: 2vw;
     font-weight: bold;
 }
+
 #skill-list {
     display: flex;
     justify-content: space-around;
@@ -108,4 +105,49 @@ ul {
 
 #skill-font {
     font-size: 1.3vw;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+border: 1vw solid gray;
+height: 70vw;
+align-items: center;
+justify-content: center;
+align-content: space-around;
+background-color: #D2D2D2;
+}
+
+.photo {
+  margin: 0.7vw;
+}
+
+#contact {
+width: 40%;
+height: 25vw;
+background-color: #90CAF9;
+}
+
+#contact p {
+    font-size: 2vw;
+    margin: 1.5vw;
+    padding: 2vw;
+}
+
+.contact-data {
+    width: 40%;
+    height: 25vw;
+    align-items: flex-start;
+    margin: auto 3vw;
+    font-size: 1vw;
+}
+.form {
+    display: flex;
+    right: 2vw;
+    justify-content: flex-end;
+    background-color: yellow;
+}
+.form input {
+    display: flex;
+    flex-direction: column;
 }
