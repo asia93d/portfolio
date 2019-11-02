@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,500i,700&display=swap');
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    margin: 0;
+    background-color: white;
+}
+
+.content {
+    background-image: url('../css/mapa-oryg.jpg');
+    background-size: cover;
+    height: 500px;
+    /*tutaj poprawić bo coś nie halo*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.content h1 {
+color: #3399FF;
+font-weight: bold;
+font-size: 70px;
+line-height: 20px;
+padding: 20px;
+}
+
+.content h3 {
+color: #0066CC;
+font-size: 20px;
+line-height: 20px;
+padding: 20px 7px;
+}
+
+.contactme {
+color: black;
+font-size: 15px;
+text-align: center;
+padding: 10px;
+}
+
+.buttons {
+box-sizing: border-box;
+font-style: normal;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+}
+
+button {
+    background: linear-gradient(250deg, #3399FF 15%, #0066CC 70%);
+    margin: auto 30px;
+ font-family: "Montserrat", sans-serif;
+ color: white;
+ 
+}
