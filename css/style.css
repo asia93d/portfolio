@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500,500i,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700&display=swap');
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 12px;
     margin: 0;
     background-color: white;
@@ -33,7 +33,7 @@ padding: 20px 7px;
 
 .contactme {
 color: black;
-font-size: 15px;
+font-size: 20px;
 text-align: center;
 padding: 10px;
 }
@@ -47,9 +47,65 @@ text-align: center;
 }
 
 button {
-    background: linear-gradient(250deg, #3399FF 15%, #0066CC 70%);
-    margin: auto 30px;
- font-family: "Montserrat", sans-serif;
- color: white;
+background: linear-gradient(250deg, #3399FF 15%, #0066CC 70%);
+margin: auto 30px;
+font-family: "Raleway", sans-serif;
+color: white;
  
+}
+
+.about-content {
+width: 100%;
+}
+.about-content img {
+width: 25%;
+display: inline-block;
+
+}
+#about {
+ font-size: 25px;
+ margin: 1.5vw 3vw;
+}
+.about-info {
+    display:inline-block;
+    position: absolute;
+    left: 24vw;
+    font-size: 1.3vw;
+    font-weight: bold;
+    line-height: 2.5vw;
+}
+ul {
+    list-style-type: none;
+
+}
+.about-text {
+    width: 40vw;
+    height: 15vw;
+    display:inline-block;
+    position: absolute;
+    justify-content: flex-end;
+    font-size: 1.2vw;
+    line-height: 2.3vw;
+    text-align: justify;
+    right: 4%;
+    border-left: dotted;
+    padding: 0 2vw;
+
+}
+#skills-style {
+    display: flex;
+    justify-content: center;
+    margin: 5vw auto;
+    font-size: 2vw;
+    font-weight: bold;
+}
+#skill-list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 2.2vw;
+}
+
+#skill-font {
+    font-size: 1.3vw;
 }
