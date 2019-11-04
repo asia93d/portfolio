@@ -49,6 +49,7 @@ a:hover{
     font-size: 70px;
     line-height: 20px;
     padding: 20px;
+    transition: all 2s ease-in-out;
 }
 
 .content h3 {
@@ -56,6 +57,7 @@ a:hover{
     font-size: 20px;
     line-height: 20px;
     padding: 20px 15px;
+    transition: all 2s ease-in-out;
 }
 
 .contactme {
