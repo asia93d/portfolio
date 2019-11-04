@@ -4,62 +4,78 @@ body {
     font-size: 12px;
     margin: 0;
     background-color: white;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
 }
 
 .content {
     background-image: url('../css/mapa-oryg.jpg');
     background-size: cover;
     height: 500px;
-    /*tutaj poprawić bo coś nie halo*/
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
 .content h1 {
-color: #3399FF;
-font-weight: bold;
-font-size: 70px;
-line-height: 20px;
-padding: 20px;
+    color: #3399FF;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 20px;
+    padding: 20px;
 }
 
 .content h3 {
-color: #0066CC;
-font-size: 20px;
-line-height: 20px;
-padding: 20px 7px;
+    color: #3399FF;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 20px 15px;
 }
 
 .contactme {
-color: black;
-font-size: 20px;
-text-align: center;
-padding: 10px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
 }
 
 .buttons {
-box-sizing: border-box;
-font-style: normal;
-font-size: 15px;
-line-height: 20px;
-text-align: center;
+    box-sizing: border-box;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
 }
 
 button {
-background: linear-gradient(250deg, #3399FF 15%, #0066CC 70%);
-margin: auto 30px;
-font-family: "Raleway", sans-serif;
-color: white;
+    background: linear-gradient(250deg, #3399FF 15%, #0066CC 70%);
+    margin: 10px 30px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+button:hover {
+    background: #BBDEFB;
+    color: #0066CC;
 }
 
 .about-content {
-width: 100%;
+    width: 100%;
 }
 
 .about-content img {
-width: 25%;
-display: inline-block;
+    width: 25%;
+    display: inline-block;
 }
 
 .about-info {
@@ -108,46 +124,45 @@ ul {
 }
 
 .container {
-display: flex;
-flex-wrap: wrap;
-border: 1vw solid gray;
-height: 70vw;
-align-items: center;
-justify-content: center;
-align-content: space-around;
-background-color: #D2D2D2;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1vw solid gray;
+    height: 70vw;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    background-color: #D2D2D2;
 }
 
 .photo {
-  margin: 0.7vw;
+    margin: 0.7vw;
 }
 
-#contact {
-width: 40%;
-height: 25vw;
-background-color: #90CAF9;
-}
-
-#contact p {
-    font-size: 2vw;
-    margin: 1.5vw;
-    padding: 2vw;
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1vw solid gray;
+    height: 28vw;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    background-color: #90CAF9;
 }
 
 .contact-data {
-    width: 40%;
+    width: 35%;
     height: 25vw;
-    align-items: flex-start;
-    margin: auto 3vw;
-    font-size: 1vw;
+    font-size: 1.1vw;
+    margin: 10px;
 }
+
 .form {
-    display: flex;
-    right: 2vw;
-    justify-content: flex-end;
-    background-color: yellow;
+    width: 30vw;
 }
+
 .form input {
-    display: flex;
-    flex-direction: column;
+    width: 20vw;
+    margin: 3px;
+    padding:20px;
+    border-radius: 10px;
 }

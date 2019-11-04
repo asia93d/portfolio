@@ -12,10 +12,18 @@
     <link rel="stylesheet" href="css/fonts/fontello.css" type="text/css"/>
 </head>
 <body>
-    <!-- Nagłówek -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">O mnie</a></li>
+                <li><a href="#skills">Umiejętności</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="content">
-        <!-- Tytuł nagłówka-->
-        <div class="header">
+        <div>
             <h1>Witaj!</h1>
             <h3>Zapraszam na moją stronę internetową</h3>
         </div>
@@ -63,30 +71,32 @@
     <p id="title-style">Portfolio</p>
     <div id="portfolio">
         <div class=container>
-            <div class="photo"><img src="css/photo1.jpg" alt="Zdjęcie nr 1"></div>
-            <div class="photo"><img src="css/photo2.jpg" alt="Zdjęcie nr 2"></div>
-            <div class="photo"><img src="css/photo3.jpg" alt="Zdjęcie nr 3"></div>
-            <div class="photo"><img src="css/photo4.jpg" alt="Zdjęcie nr 4"></div>
-            <div class="photo"><img src="css/photo5.jpg" alt="Zdjęcie nr 5"></div>
+            <div class="photo photo1"><img src="css/photo1.jpg" alt="Zdjęcie nr 1"></div>
+            <div class="photo photo2"><img src="css/photo2.jpg" alt="Zdjęcie nr 2"></div>
+            <div class="photo photo3"><img src="css/photo3.jpg" alt="Zdjęcie nr 3"></div>
+            <div class="photo photo4"><img src="css/photo4.jpg" alt="Zdjęcie nr 4"></div>
+            <div class="photo photo5"><img src="css/photo5.jpg" alt="Zdjęcie nr 5"></div>
         </div>
     </div>
         <p id="title-style">Kontakt</p>
     <div id="contact">
         <br>
-        <div class="contact-container"><p>Jeśli masz pytania, napisz do mnie. Postaram się odpisać najszybciej jak to możliwe.</p>
-        <br>
-        <br>
-        <div class="contact-data">
-            <b>Designer<br>Poland, Wrocław</b><br>ul. Tęczowa 12/3 50-000<br>+48 123-456-789<br>night-coding@dev.com
-        </div>
-        <div class="form">
-        <form>
-            <input type="text" placeholder= "Imię">
-            <input type="text" placeholder= "Adres e-mail">
-            <input type="text" placeholder= "Temat">
-            <input type="text" placeholder= "Treść wiadomości">
-        </form>
-        </div>
+        <div class="contact-container">
+            <div class="contact-data">
+            <p style="font-size: 1.7vw;">Jeśli masz pytania, napisz do mnie. Postaram się odpisać najszybciej jak to możliwe.</p>
+            <br>
+            <br>
+            <p><b>Designer<br>Poland, Wrocław</b><br>ul. Tęczowa 12/3 50-000<br>+48 123-456-789<br>night-coding@dev.com<p>
+            </div>
+            <div class="form">
+            <form>
+                <input type="text" placeholder= "Imię">
+                <input type="text" placeholder= "Adres e-mail">
+                <input type="text" placeholder= "Temat">
+                <input type="text" placeholder= "Treść wiadomości">
+                <button>Wyślij</button>
+            </form>
+            </div>
         </div>
     </div>
 </body>
